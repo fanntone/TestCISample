@@ -6,6 +6,7 @@ public class HelloJunit {
    String a = "Hello World";	
    String b = "Hello World";
    String c = "hello world";
+   String d = "hello world!";
 
    @Test
    public void test_ab() {
@@ -17,4 +18,8 @@ public class HelloJunit {
 	  assertEquals(a,c);
    }
 	
+   @Test
+   public void test_ad() {
+	  assertEquals(a,d);
+   }
 }
