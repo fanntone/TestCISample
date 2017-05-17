@@ -6,7 +6,7 @@ public class HelloJunit {
    String a = "Hello World";	
    String b = "Hello World";
    String c = "hello world";
-   String d = "hello world!";
+   Strin g d = "hello world!";
 
    @Test
    public void test_ab() {
